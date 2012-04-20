@@ -1,0 +1,34 @@
+{
+    "name": "pear/Console_Table2",
+    "type": "library",
+    "description": "Class that makes it easy to build console style tables.",
+    "keywords": [ "console" ],
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Jan Schneider",
+            "homepage": "http://pear.php.net/user/yunosh"
+        },
+        {
+            "name": "Richard Heyes",
+            "homepage": "http://pear.php.net/user/richard"
+        },
+        {
+            "name": "Tal Peer",
+            "homepage": "http://pear.php.net/user/tal"
+        },
+        {
+            "name": "Xavier Noguer",
+            "homepage": "http://pear.php.net/user/xnoguer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "suggest": {
+        "pear/Console_Color2": ">=0.1.0"
+    },
+    "autoload": {
+        "psr-0": { "Console_Table2": "" }
+    }
+}
